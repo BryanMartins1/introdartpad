@@ -1,0 +1,25 @@
+void main(){
+  //soma
+  print (somar(2,1));
+  print (multiplicacao(3,5));
+  print (subtracao(50,44));
+  print (divisao(10,2));
+}         
+  double somar (double x, double y)
+  {
+    return x+y;
+  }
+//multiplicação
+double multiplicacao(double x, double y)
+{
+  return x*y;
+}
+//subtração
+  double subtracao (double x, double y){
+    return x-y;
+  }
+//divisão
+double divisao (double x, double y)
+{
+  return x/y;
+}
